@@ -1,25 +1,30 @@
 {{>menu id="about"}}
 <section class="ui center aligned middle aligned segment">
     <h2>About the team of Playlist App!</h2>
-<div class="ui centered card">
-    <div class="image">
-        <img src="{{employee.image}}" alt="">
-    </div>
-    <div class="content">
-        <a class="header">{{employee.fullname}}</a>
-    </div>
-    <div class="meta">
-        <span class="date">Joined in {{employee.joined}}</span>
-    </div>
-    <div class="description">
-        {{employee.name}}is a/an {{employee.job}} living in {{employee.city}}.
-    </div>
-    <div class="extra content">
-        <a>
-            <i class="user icon"></i>
-            {{employee.mates}} contacts
-        </a>
-    </div>
-</div>
 
+
+<div class="ui centered cards">
+    {{#each employee}}    
+     <div class="card">
+        <div class="image">
+            <img src="{{image}}" alt="">
+        </div>
+        <div class="content">
+            <a class="header">{{fullname}}</a>
+        </div>
+        <div class="meta">
+            <span class="date">Joined in {{joined}}</span>
+        </div>
+        <div class="description">
+            {{name}} is a/an {{job}} living in {{city}}.
+        </div>
+        <div class="extra content">
+            <a>
+                <i class="user icon"></i>
+                {{mates}} contacts
+            </a>
+        </div>
+    </div>
+    {{/each}}
+</div>
 </section>
