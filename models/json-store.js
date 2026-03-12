@@ -60,6 +60,13 @@ class JsonStore{
         data[0][arr].splice(index, 1, obj);
         await this.db.write();
     }
+
+    //ADDED LATER. MAYBE I HAVE TO REMOVE
+    async addItem(collection, id, arr, obj) {
+    const data = this.db.data[collection].filter((c) => c.id === id);
+    data[0][arr].push(obj);
+    await this.db.write();
+}
 }
 
 export default JsonStore;
