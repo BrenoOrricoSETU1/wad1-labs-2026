@@ -36,14 +36,14 @@ class JsonStore{
         await this.db.write();
     }
 
-    async removeIntem(collection, id, arr, itemId){
-        const data = this.db.data[collection].filter((c) => c.id === id);
-        const item = data[0][arr].filter((i) => i.id === id);
-        const index = data[0][arr].indexOf(item[0]);
-        if(index > -1){
-            data[0][arr].splice(index, 1);
-        }
-        await this.db.write();
+    async removeItem(collection, id, arr, itemId) {
+    const data = this.db.data[collection].filter((c) => c.id === id);
+    const item = data[0][arr].filter((i) => i.id === itemId);
+    const index = data[0][arr].indexOf(item[0]);
+    if (index > -1) {
+        data[0][arr].splice(index, 1);
+    }
+    await this.db.write();
     }
 
     async editCollection(collection, id, obj){
