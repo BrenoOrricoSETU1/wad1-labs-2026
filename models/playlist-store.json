@@ -3,6 +3,7 @@
     {
       "id": "01",
       "title": "Beethoven Sonatas",
+      "rating": 3,
       "songs": [
         {
           "id": "04",
@@ -24,6 +25,7 @@
     {
       "id": "02",
       "title": "Beethoven Concertos",
+      "rating": 4,
       "songs": [
         {
           "id": "07",
@@ -45,6 +47,34 @@
     {
       "id": "03",
       "title": "Beethoven Unfinished Symphonies",
+      "rating": 5,
+      "songs": []
+    },
+    {
+      "id": "bb84e54b-bd0a-4ee4-8f1f-b70b78738271",
+      "title": "test",
+      "rating": 2,
+      "date": "2026-03-19T08:53:41.365Z",
+      "songs": [
+        {
+          "id": "08ff9588-e4e7-493c-b8bd-d125f481b790",
+          "title": "test",
+          "artist": "test"
+        }
+      ]
+    },
+    {
+      "id": "90bed854-b0e2-496f-836d-e8a6495fe9e8",
+      "title": "teste",
+      "date": "2026-03-19T14:32:44.481Z",
+      "rating": "3",
+      "songs": []
+    },
+    {
+      "id": "0835ded8-59ee-4658-9a18-341e20e2e640",
+      "title": "test4",
+      "date": "2026-03-19T14:34:21.298Z",
+      "rating": 5,
       "songs": []
     }
   ]
