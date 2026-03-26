@@ -19,6 +19,11 @@
           "id": "06",
           "title": "Piano Sonata No. 10",
           "artist": "Beethoven"
+        },
+        {
+          "id": "edeb31a8-4370-462f-a856-b98e51742ac5",
+          "title": "Piano Sonata No. 15",
+          "artist": "Beethoven"
         }
       ]
     },
@@ -62,20 +67,6 @@
           "artist": "test"
         }
       ]
-    },
-    {
-      "id": "90bed854-b0e2-496f-836d-e8a6495fe9e8",
-      "title": "teste",
-      "date": "2026-03-19T14:32:44.481Z",
-      "rating": "3",
-      "songs": []
-    },
-    {
-      "id": "0835ded8-59ee-4658-9a18-341e20e2e640",
-      "title": "test4",
-      "date": "2026-03-19T14:34:21.298Z",
-      "rating": 5,
-      "songs": []
     }
   ]
 }
