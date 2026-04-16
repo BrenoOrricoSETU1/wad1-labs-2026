@@ -1,68 +1,30 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "2b966a39-2408-42be-84d3-36ce1baad8b4",
+      "title": "Marge's test playlist",
+      "date": "2026-04-16T11:10:21.280Z",
       "rating": 3,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "edeb31a8-4370-462f-a856-b98e51742ac5",
-          "title": "Piano Sonata No. 15",
-          "artist": "Beethoven"
-        }
-      ]
+      "songs": []
     },
     {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 4,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "57c41929-224c-4968-bd6d-5141d7c12204",
+      "title": "Homer's test playlist",
+      "date": "2026-04-16T11:10:51.868Z",
       "rating": 5,
       "songs": []
     },
     {
-      "id": "bb84e54b-bd0a-4ee4-8f1f-b70b78738271",
-      "title": "test",
+      "userid": "ef1a1d63-5bcf-4433-b0a3-42c5aedc4265",
+      "id": "b96a3008-4d65-4bed-9e00-1fa0fae7d8bb",
+      "title": "Test's test playlist",
+      "date": "2026-04-16T11:12:56.265Z",
       "rating": 2,
-      "date": "2026-03-19T08:53:41.365Z",
       "songs": [
         {
-          "id": "08ff9588-e4e7-493c-b8bd-d125f481b790",
+          "id": "a0043a1a-0ac6-4913-b7f2-dd905fb82cc9",
           "title": "test",
           "artist": "test"
         }

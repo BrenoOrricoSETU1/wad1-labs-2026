@@ -15,13 +15,22 @@
 
     <div class="ui sixteen wide column">
 
-      <div class="ui centered three statistics">
+      <div class="ui centered four statistics">
         <div class="ui statistic">
           <div class="value">
             <i class="microphone icon"></i>
           </div>
           <div class="label">
             {{displayNumPlaylists}} playlists
+          </div>
+        </div>
+
+        <div class="ui orange statistic">
+          <div class="value">
+            <i class="user icon"></i>
+          </div>
+          <div class="label">
+            {{displayNumUsers}} Users
           </div>
         </div>
 
@@ -78,8 +87,8 @@
                 <i class="compact disc icon"></i>
             </div>
             <div class="label">
-                Largest Playlist: {{displayLargest}} <br>
-                Number of songs: {{largest}}
+                Largest Playlist: <br>{{displayLargest}} <br>
+                Number of songs: <br>{{largest}}
             </div>
         </div>
       </div>

@@ -2,10 +2,15 @@
 
 import logger from '../utils/logger.js';
 import playlistStore from '../models/playlist-store.js';
+import accounts from './accounts.js';
+import userStore from '../models/user-store.js';
 
 const stats = {
     createView(request, response){
         //app statistics calculations
+        const loggedInUser = accounts.getCurrentUser(request);
+
+        if (loggedInUser){
         const playlist = playlistStore.getAllPlaylists();
 
         let numPlaylists = playlist.length;
@@ -19,6 +24,7 @@ const stats = {
         let maxSongs = Math.max(...playlist.map(playlist => playlist.songs.length));
         let largPlaylist = playlist.filter(playlist => playlist.songs.length === maxSongs);
         let largTitles = largPlaylist.map(item => item.title);
+        const numUsers = userStore.getAllUsers().length;
 
 
         const statistics = {
@@ -29,7 +35,8 @@ const stats = {
             displayLargest: largTitles,
             highest: maxRating,
             displayFav: favTitles,
-            largest: maxSongs
+            largest: maxSongs,
+            displayNumUsers: numUsers
         }
 
         const viewData = {
@@ -37,6 +44,7 @@ const stats = {
             stats: statistics
         };
         response.render("stats", viewData);
+        } else response.redirect('/');
     },
 };
 export default stats;

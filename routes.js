@@ -9,8 +9,9 @@ import about from './controllers/about.js'
 import playlist from './controllers/playlist.js';
 import stats from './controllers/stats.js';
 import logger from './utils/logger.js';
+import accounts from './controllers/accounts.js';
 
-router.get('/', start.createView);
+router.get('/start', start.createView);
 router.get('/dashboard', dashboard.createView);
 router.get('/about', about.createView);
 router.get('/playlist/:id', playlist.createView);
@@ -29,5 +30,13 @@ router.post('/playlist/:id/updatesong/:songid', playlist.updateSong);
 router.get('/playlist/:id/deletesong/:songid', playlist.deleteSong);
 
 router.get('/dashboard/deleteplaylist/:id', dashboard.deletePlaylist);
+
+router.get('/', accounts.index);
+router.get('/login', accounts.login);
+router.get('/signup', accounts.signup);
+router.get('/logout', accounts.logout);
+
+router.post('/register', accounts.register);
+router.post('/authenticate', accounts.authenticate);
 
 export default router;
