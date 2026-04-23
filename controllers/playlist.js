@@ -16,6 +16,7 @@ createView(request, response) {
       title: 'Playlist',
       singlePlaylist: playlistStore.getPlaylist(playlistId),
       fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      profilePicture: loggedInUser.profilePicture,
     };
 
     response.render('playlist', viewData);

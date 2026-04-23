@@ -41,12 +41,14 @@ const accounts = {
     register(request, response){
         const user = request.body;
         user.id = uuidv4();
-        userStore.addUser(user);
+        const profilePicture = request.files.profilePicture;
 
-        //same function as logging in
-        response.cookie('playlist', user.email);
-        logger.info('registering' + user.email);
-        response.redirect('/start');
+        userStore.addUser(user, profilePicture, function() {
+            //same function as log in
+            response.cookie('playlist', user.email);
+            logger.info('registering'+ user.email);
+            response.redirect('/start');
+        });
     },
 
     //authenticate function to check user credentials

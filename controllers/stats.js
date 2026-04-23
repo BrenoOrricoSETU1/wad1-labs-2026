@@ -41,8 +41,10 @@ const stats = {
 
         const viewData = {
             title: "Playlist App Statistics",
-            stats: statistics
-        };
+            stats: statistics,
+            fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+            profilePicture: loggedInUser.profilePicture,            
+            };
         response.render("stats", viewData);
         } else response.redirect('/');
     },

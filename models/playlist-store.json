@@ -1,26 +1,185 @@
 {
   "playlistCollection": [
     {
-      "userid": "ef1a1d63-5bcf-4433-b0a3-42c5aedc4265",
-      "id": "1fe056b9-565f-45b8-b290-fa368002788b",
-      "title": "Test",
-      "date": "2026-04-23T08:25:51.155Z",
+      "userid": "b7e750a1-a9ab-4ec2-b543-ee04efa56283",
+      "id": "51a85d59-660e-4c28-ae1c-c13028b4e760",
+      "title": "Marge's Playlist",
+      "date": "2026-04-23T10:50:10.441Z",
+      "rating": 4,
+      "songs": [
+        {
+          "id": "0f795cbc-f844-4fef-a090-d529a60547f1",
+          "title": "Beethoven Symphony, n. 7",
+          "artist": "Beethovenn"
+        },
+        {
+          "id": "81177257-5f8c-4851-a3a8-0e0b796d9a2c",
+          "title": "Beethoven Symphony, n. 9",
+          "artist": "Beethovenn"
+        },
+        {
+          "id": "a5d7b4ff-8b5b-4494-8c7e-baa5c5c719e8",
+          "title": "Beethoven Symphony, n. 3",
+          "artist": "Beethovenn"
+        }
+      ],
+      "picture": {
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776941411/vvv3rlxqvensaaaj0dul.jpg",
+        "public_id": "vvv3rlxqvensaaaj0dul"
+      }
+    },
+    {
+      "userid": "1a507f73-1285-480c-ab24-c57f130647dc",
+      "id": "e3c9a7af-578d-4433-9887-ab825722bd3f",
+      "title": "The Phantom of the Opera at the Royal Albert Hall",
+      "date": "2026-04-23T10:54:04.849Z",
       "rating": 5,
       "songs": [
         {
-          "id": "c9663742-408e-40b9-be03-d8dbce3723e6",
-          "title": "Think of Me - Live at The Royal Albert Hall/2011",
+          "id": "0c346197-4994-41c3-a36c-2cc92c0f7a05",
+          "title": "Prologue: The Stage Of The Paris Opéra, 1905",
           "artist": "Andrew Lloyd Webber"
         },
         {
-          "id": "6942c49d-f90e-4df6-b7d3-df015e3ab34d",
-          "title": "The Phantom of the Opera - Live at The Royal Albert Hall/2011",
+          "id": "af673b40-0f6e-4882-8bd4-227f3e262b30",
+          "title": "Overture",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "ce9bf078-d0be-4016-bc3b-a201b06dcbba",
+          "title": "Think Of Me",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "621dce59-cc8b-4ec9-a864-31092528f38f",
+          "title": "Angel Of Music",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "8b132e4a-ff44-4fa7-9c8a-899ffd5339e9",
+          "title": "Little Lotte / The Mirror (Angel Of Music)",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "1771c920-17a2-4a39-91ac-f6cd46854f11",
+          "title": "The Phantom Of The Opera",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "87946025-4823-489f-a2d2-bdc3823f6a4f",
+          "title": "The Music Of The Night",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "073b7def-b094-4359-b9e4-504c5c1f4c51",
+          "title": "I Remember / Stranger Than You Dreamt It",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "e1c4a31c-0121-4725-af9c-9482b6ccd511",
+          "title": "Magical Lasso",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "9d5c80e0-1b08-4bde-aa06-3cf18daff80e",
+          "title": "Notes / Prima Donna",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "468163c4-c5ac-419a-92eb-cfb171e923a3",
+          "title": "Poor Fool, He Makes Me Laugh",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "6f3588bf-6403-4a48-bbcf-5199cfbf3a5b",
+          "title": "Why Have You Brought Me Here? / Raoul, I've Been There",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "e57ee6c6-fe7c-4bb4-a83e-27c5f16a6c60",
+          "title": "All I Ask Of You",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "f50a8575-97a0-4172-9ffb-c8cc5b32ca45",
+          "title": "All I Ask Of You (Reprise)",
           "artist": "Andrew Lloyd Webber"
         }
       ],
       "picture": {
-        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776932753/smwdh8wsg283rnjhbygr.jpg",
-        "public_id": "smwdh8wsg283rnjhbygr"
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776941645/ai2l0xpgb1wqf6kknciu.jpg",
+        "public_id": "ai2l0xpgb1wqf6kknciu"
+      }
+    },
+    {
+      "userid": "1a507f73-1285-480c-ab24-c57f130647dc",
+      "id": "ad6dc0fa-9bd7-44e6-a4fc-310aa6d1d914",
+      "title": "THE PHANTOM OF THE OPERA AT THE ROYAL ALBERT HALL - ACT 2",
+      "date": "2026-04-23T10:58:45.483Z",
+      "rating": 5,
+      "songs": [
+        {
+          "id": "0ba72b76-b8f7-4e81-8651-0e73b5a09e63",
+          "title": "Entr'acte",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "2a0bf0c4-6ebb-4589-b3f6-aa4c23611c99",
+          "title": "Masquerade / Why So Silent...?",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "0424a817-ceb4-41cd-b39e-7793cc5b1ee1",
+          "title": "Notes / Twisted Every Way",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "f1a82bb8-32ca-4a79-a292-8aaa8de9d0b1",
+          "title": "Wishing You Were Somehow Here Again",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "a7819700-e3e9-4853-988d-e06154e76349",
+          "title": "Wandering Child / Bravo, Monsieur",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "768c0a94-4f66-4352-b7a0-d583580c6e4f",
+          "title": "The Point Of No Return",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "4c811db9-b3b3-4667-a6bc-9d94ffee2f85",
+          "title": "Down Once More / Track Down This Murderer",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "7bb9a4db-429d-4d26-a86c-6647749c0d09",
+          "title": "Grand Finale",
+          "artist": "Andrew Lloyd Webber"
+        }
+      ],
+      "picture": {
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776941926/mngn2c1czz6jy0uawlcm.jpg",
+        "public_id": "mngn2c1czz6jy0uawlcm"
+      }
+    },
+    {
+      "userid": "35587509-a62a-4148-8c2a-a8fbd403f5c7",
+      "id": "07afd59e-921a-46db-b972-0c225b49ac0e",
+      "title": "Homer's Playlist",
+      "date": "2026-04-23T11:03:00.139Z",
+      "rating": 4,
+      "songs": [
+        {
+          "id": "793c57da-d69a-4f4e-b1ca-86020be63285",
+          "title": "Heroes",
+          "artist": "David Bowie"
+        }
+      ],
+      "picture": {
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776942180/aukog5brhcmas0enqqfc.jpg",
+        "public_id": "aukog5brhcmas0enqqfc"
       }
     }
   ]

@@ -1,25 +1,37 @@
 {
   "users": [
     {
-      "firstName": "homer",
-      "lastName": "simpson",
+      "firstName": "test",
+      "lastName": "test",
+      "email": "testing@test.com",
+      "password": "test",
+      "id": "1a507f73-1285-480c-ab24-c57f130647dc",
+      "profilePicture": {
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776940538/p6nixceqilmoauzqwor3.jpg",
+        "public_id": "p6nixceqilmoauzqwor3"
+      }
+    },
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
       "email": "homer@simpson.com",
       "password": "secret",
-      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+      "id": "35587509-a62a-4148-8c2a-a8fbd403f5c7",
+      "profilePicture": {
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776941357/wquhcnmpabpvkmp84hn5.jpg",
+        "public_id": "wquhcnmpabpvkmp84hn5"
+      }
     },
     {
-      "firstName": "marge",
-      "lastName": "simpson",
+      "firstName": "Marge",
+      "lastName": "Simpson",
       "email": "marge@simpson.com",
       "password": "secret",
-      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
-    },
-    {
-      "firstName": "Test",
-      "lastName": "Test",
-      "email": "test@test.com",
-      "password": "test",
-      "id": "ef1a1d63-5bcf-4433-b0a3-42c5aedc4265"
+      "id": "b7e750a1-a9ab-4ec2-b543-ee04efa56283",
+      "profilePicture": {
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776941383/abfmxuf0uqwdef9nvxtm.webp",
+        "public_id": "abfmxuf0uqwdef9nvxtm"
+      }
     }
   ]
 }
