@@ -16,7 +16,7 @@ const about = {
         title: 'About the Playlist App',
         fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
         profilePicture: loggedInUser.profilePicture,
-        employee: appStore.getAppInfo(),
+        employee: appStore.getEmployee(),
       };
       response.render('about', viewData);
     }
