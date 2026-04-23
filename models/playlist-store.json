@@ -1,34 +1,27 @@
 {
   "playlistCollection": [
     {
-      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
-      "id": "2b966a39-2408-42be-84d3-36ce1baad8b4",
-      "title": "Marge's test playlist",
-      "date": "2026-04-16T11:10:21.280Z",
-      "rating": 3,
-      "songs": []
-    },
-    {
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "id": "57c41929-224c-4968-bd6d-5141d7c12204",
-      "title": "Homer's test playlist",
-      "date": "2026-04-16T11:10:51.868Z",
-      "rating": 5,
-      "songs": []
-    },
-    {
       "userid": "ef1a1d63-5bcf-4433-b0a3-42c5aedc4265",
-      "id": "b96a3008-4d65-4bed-9e00-1fa0fae7d8bb",
-      "title": "Test's test playlist",
-      "date": "2026-04-16T11:12:56.265Z",
-      "rating": 2,
+      "id": "1fe056b9-565f-45b8-b290-fa368002788b",
+      "title": "Test",
+      "date": "2026-04-23T08:25:51.155Z",
+      "rating": 5,
       "songs": [
         {
-          "id": "a0043a1a-0ac6-4913-b7f2-dd905fb82cc9",
-          "title": "test",
-          "artist": "test"
+          "id": "c9663742-408e-40b9-be03-d8dbce3723e6",
+          "title": "Think of Me - Live at The Royal Albert Hall/2011",
+          "artist": "Andrew Lloyd Webber"
+        },
+        {
+          "id": "6942c49d-f90e-4df6-b7d3-df015e3ab34d",
+          "title": "The Phantom of the Opera - Live at The Royal Albert Hall/2011",
+          "artist": "Andrew Lloyd Webber"
         }
-      ]
+      ],
+      "picture": {
+        "url": "http://res.cloudinary.com/dewyrhe7w/image/upload/v1776932753/smwdh8wsg283rnjhbygr.jpg",
+        "public_id": "smwdh8wsg283rnjhbygr"
+      }
     }
   ]
 }

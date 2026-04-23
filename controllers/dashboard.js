@@ -68,16 +68,18 @@ const dashboard = {
       rating: parseInt(request.body.rate),
       songs: [],
     };
-    
-    playlistStore.addPlaylist(newPlayList);
-    response.redirect('/dashboard');
+
+    playlistStore.addPlaylist(newPlayList, request.files.picture, function(){
+        response.redirect('/dashboard');
+    });
     },
     
     deletePlaylist(request, response){
         const playlistId = request.params.id;
         logger.debug(`Deleting Playlist ${playlistId}`);
-        playlistStore.removePlaylist(playlistId);
-        response.redirect("/dashboard");
+        playlistStore.removePlaylist(playlistId, function(){
+            response.redirect("/dashboard");
+        });
     },
 
 };
